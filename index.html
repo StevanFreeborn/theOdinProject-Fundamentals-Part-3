@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function add7(number) {
+        return number + 7;
+      }
+
+      console.log(add7(3) === 10);
+
+      function multiply(number1, number2) {
+        return number1 * number2;
+      }
+
+      console.log(multiply(4, 6) === 24);
+
+      function capitalize(string) {
+        return string.charAt(0).toUpperCase() + string.toLowerCase().slice(1);
+      }
+
+      console.log(capitalize('hello') === 'Hello');
+      console.log(capitalize('goodBye') === 'Goodbye');
+      console.log(capitalize("wHat's uP") === "What's up");
+
+      function lastLetter(string) {
+        return string.charAt(string.length - 1);
+      }
+
+      console.log(lastLetter('hello') === 'o');
+      console.log(lastLetter('goodbye!') === '!');
+      console.log(lastLetter('ZeltoiD') === 'D');
+    </script>
+  </body>
+</html>
